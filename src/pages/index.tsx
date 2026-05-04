@@ -26,7 +26,7 @@ export default function Home() {
       >
         <main className={styles.main}>
           <div className={styles.intro}>
-            <h1>ArkaStudent Profile</h1>
+            <h1>Arka Student Profile</h1>
             <div className={styles.profile}>
               <h2>Personal Information</h2>
               <p><strong>Name:</strong> Febrian Arka Samudra</p>
