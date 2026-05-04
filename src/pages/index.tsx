@@ -26,11 +26,11 @@ export default function Home() {
       >
         <main className={styles.main}>
           <div className={styles.intro}>
-            <h1>Arka&apos;s Student Profile</h1>
+            <h1>ArkaStudent Profile</h1>
             <div className={styles.profile}>
               <h2>Personal Information</h2>
               <p><strong>Name:</strong> Febrian Arka Samudra</p>
-              <p><strong>Student ID(NIM):</strong> 2341720066</p>
+              <p><strong>Student ID:</strong> 2341720066</p>
               
               <h2>Portfolio</h2>
               <p>Check out my <a href="https://github.com/FebrianArkaSamudra" target="_blank" rel="noopener noreferrer">GitHub</a> for more projects and contributions.</p>

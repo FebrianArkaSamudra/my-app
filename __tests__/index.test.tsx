@@ -5,9 +5,9 @@ describe('Home', () => {
   it('renders the student profile', () => {
     render(<Home />)
     
-    expect(screen.getByText("Arka's Student Profile")).toBeInTheDocument()
-    expect(screen.getByText('Arka')).toBeInTheDocument()
-    expect(screen.getByText('12345678')).toBeInTheDocument()
-    expect(screen.getByText('Web Development (Next.js, React)')).toBeInTheDocument()
+    expect(screen.getByText("ArkaStudent Profile")).toBeInTheDocument()
+    expect(screen.getByText('Febrian Arka Samudra')).toBeInTheDocument()
+    expect(screen.getByText('2341720066')).toBeInTheDocument()
+    expect(screen.getByText('Portfolio')).toBeInTheDocument()
   })
 })
